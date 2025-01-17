@@ -1,0 +1,8 @@
+%% param regulator discret
+h1=0.1;
+beta_p1=1;
+beta_i1=Kp1*h1/Ti1;
+beta_t1s=0;
+beta_t1=h1/Tt1;
+alpha_d1=Td1/(Td1+N1*h1);
+beta_d1=Kp1*N1*Td1/(Td1+N1*h1);
